@@ -1,0 +1,22 @@
+page-about {
+    .p-title {
+        font-size: 18px;
+    }
+    .right {
+        float: right;
+        margin-top: -37px;
+    }
+    .tracks {
+        font-size: 14px;
+        color: #b7c4cb;
+        margin-top: -10px;
+    }
+    .box {
+        position: relative;
+    }
+    .player {
+        position: absolute;
+        left: 33vw;
+        top: 5.5vh;
+    }
+}

@@ -1,0 +1,24 @@
+<ion-content padding class="bg-image no-scroll">
+    <img src="../../assets/img/logo-appstream.png" class="logo">
+    <div>
+        <ion-list class="list" inset>
+            <ion-item class="lable">
+                <ion-label color="myWhite" style="font-style:12px;" floating>Username</ion-label>
+                <ion-input type="text"></ion-input>
+            </ion-item>
+            <ion-item class="lable">
+                <ion-label color="myWhite" style="font-style:12px;" floating>Password</ion-label>
+                <ion-input type="password"></ion-input>
+            </ion-item>
+        </ion-list>
+    </div>
+    <p class="text">Forgot your password</p>
+    <div text-center>
+        <button ion-button class="btnWidth" color="secondary" round [navPush]="nextPage">login</button>
+    </div>
+    <div text-center>
+        <button ion-button class="myButton" color="myWhite" round outline [navPush]="nextPage">Sing Up</button>
+    </div>
+    <img class="fb-button" src="../../assets/img/facebook.png">
+    <img class="tw-button" src="../../assets/img/twitter.png">
+</ion-content>

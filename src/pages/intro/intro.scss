@@ -1,0 +1,21 @@
+page-intro {
+    .bg-image {
+        background-image: url('../../assets/img/bg2.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+    .btn {
+        position: absolute;
+        bottom: 120px;
+        text-align: center;
+        z-index: 1000;
+        width: 100%;
+    }
+    .swiper-pagination-bullet-active {
+        background: white;
+    }
+    .padding {
+        padding-bottom: 100px;
+    }
+}
